@@ -8,7 +8,7 @@ const data = {
       price: 499.99,
       description: "A high-end smartphone with advanced features.",
       image:
-        "https://unsplash.com/photos/space-gray-iphone-6-on-white-textile-8l9VxXI28tY",
+        "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ const data = {
       description:
         "Immerse yourself in stunning 4K resolution with smart TV capabilities.",
       image:
-        "https://unsplash.com/photos/black-flat-screen-tv-turned-on-showing-game-qDLLP0yP7FU",
+        "https://images.pexels.com/photos/1444416/pexels-photo-1444416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
       id: 3,
@@ -30,7 +30,7 @@ const data = {
       description:
         "Powerful gaming laptop with high-performance hardware for the best gaming experience.",
       image:
-        "https://unsplash.com/photos/macbook-pro-on-black-table-SqLyNHbsLKQ",
+        "https://images.pexels.com/photos/19012051/pexels-photo-19012051/free-photo-of-modern-gaming-laptop-and-headphones-on-a-desk.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
       id: 4,
@@ -41,7 +41,7 @@ const data = {
       description:
         "Enjoy crystal-clear audio with wireless convenience and active noise cancellation.",
       image:
-        "https://unsplash.com/photos/black-wireless-headphones-between-apple-keyboard-and-apple-magic-mouse-on-white-surface-YDZPdqv3FcA",
+        "https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
       id: 5,
@@ -52,7 +52,7 @@ const data = {
       description:
         "Keep your home secure with a smart camera that provides live streaming and motion detection.",
       image:
-        "https://unsplash.com/photos/white-surveillance-camera-hanging-on-wall-KNt4zd8HPb0",
+        "https://images.pexels.com/photos/3205737/pexels-photo-3205737.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
       id: 6,
@@ -62,7 +62,8 @@ const data = {
       price: 349.99,
       description:
         "Versatile tablet with a high-resolution display and powerful processing.",
-      image: "https://unsplash.com/photos/black-ipad-hLgYtX0rPgw",
+      image:
+        "https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
       id: 7,
@@ -73,7 +74,7 @@ const data = {
       description:
         "Stay connected and monitor your health with this feature-packed smartwatch.",
       image:
-        "https://unsplash.com/photos/round-silver-colored-chronograph-watch-with-brown-leather-strap-12V36G17IbQ",
+        "https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
       id: 8,
@@ -84,7 +85,7 @@ const data = {
       description:
         "Capture stunning photos and videos with this easy-to-use digital camera.",
       image:
-        "https://unsplash.com/photos/black-nikon-dslr-camera-on-brown-wooden-table-BB2G2cfdXKE",
+        "https://images.pexels.com/photos/371909/pexels-photo-371909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
       id: 9,
@@ -95,7 +96,7 @@ const data = {
       description:
         "Portable Bluetooth speaker with rich sound quality for on-the-go entertainment.",
       image:
-        "https://unsplash.com/photos/black-and-red-lg-portable-speaker-zxvnrxl5OXcch",
+        "https://images.pexels.com/photos/6322727/pexels-photo-6322727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
       id: 10,
@@ -106,7 +107,7 @@ const data = {
       description:
         "Convenient wireless charging pad compatible with various devices.",
       image:
-        "https://unsplash.com/photos/a-computer-mouse-sitting-on-top-of-a-keyboard-WYWVqJUFDs4",
+        "https://images.pexels.com/photos/6044930/pexels-photo-6044930.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
       id: 11,
@@ -117,7 +118,7 @@ const data = {
       description:
         "Sleek and lightweight laptop with a high-resolution display and long battery life.",
       image:
-        "https://unsplash.com/photos/cropped-image-of-an-office-woman-is-charging-a-smartphone-with-a-wireless-charger-while-typing-on-a-computer-laptop--BS96dcJDIs",
+        "https://images.pexels.com/photos/19012051/pexels-photo-19012051/free-photo-of-modern-gaming-laptop-and-headphones-on-a-desk.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
       id: 12,
@@ -128,7 +129,7 @@ const data = {
       description:
         "Immerse yourself in virtual worlds with this advanced VR headset.",
       image:
-        "https://unsplash.com/photos/white-and-black-beats-by-dr-dre-headphones-MvJezf8FT4o",
+        "https://images.pexels.com/photos/2007647/pexels-photo-2007647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
   ],
 };
