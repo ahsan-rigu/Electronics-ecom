@@ -7,7 +7,8 @@ const data = {
       category: "Mobile Phones",
       price: 499.99,
       description: "A high-end smartphone with advanced features.",
-      image: "smartphone_x.jpg",
+      image:
+        "https://unsplash.com/photos/space-gray-iphone-6-on-white-textile-8l9VxXI28tY",
     },
     {
       id: 2,
@@ -17,7 +18,8 @@ const data = {
       price: 799.99,
       description:
         "Immerse yourself in stunning 4K resolution with smart TV capabilities.",
-      image: "ultra_hd_tv.jpg",
+      image:
+        "https://unsplash.com/photos/black-flat-screen-tv-turned-on-showing-game-qDLLP0yP7FU",
     },
     {
       id: 3,
@@ -27,7 +29,8 @@ const data = {
       price: 1299.99,
       description:
         "Powerful gaming laptop with high-performance hardware for the best gaming experience.",
-      image: "gaming_laptop_pro.jpg",
+      image:
+        "https://unsplash.com/photos/macbook-pro-on-black-table-SqLyNHbsLKQ",
     },
     {
       id: 4,
@@ -37,7 +40,8 @@ const data = {
       price: 149.99,
       description:
         "Enjoy crystal-clear audio with wireless convenience and active noise cancellation.",
-      image: "wireless_headphones.jpg",
+      image:
+        "https://unsplash.com/photos/black-wireless-headphones-between-apple-keyboard-and-apple-magic-mouse-on-white-surface-YDZPdqv3FcA",
     },
     {
       id: 5,
@@ -47,7 +51,8 @@ const data = {
       price: 89.99,
       description:
         "Keep your home secure with a smart camera that provides live streaming and motion detection.",
-      image: "security_camera.jpg",
+      image:
+        "https://unsplash.com/photos/white-surveillance-camera-hanging-on-wall-KNt4zd8HPb0",
     },
     {
       id: 6,
@@ -57,7 +62,7 @@ const data = {
       price: 349.99,
       description:
         "Versatile tablet with a high-resolution display and powerful processing.",
-      image: "tablet_pro.jpg",
+      image: "https://unsplash.com/photos/black-ipad-hLgYtX0rPgw",
     },
     {
       id: 7,
@@ -67,7 +72,8 @@ const data = {
       price: 199.99,
       description:
         "Stay connected and monitor your health with this feature-packed smartwatch.",
-      image: "smart_watch_elite.jpg",
+      image:
+        "https://unsplash.com/photos/round-silver-colored-chronograph-watch-with-brown-leather-strap-12V36G17IbQ",
     },
     {
       id: 8,
@@ -77,7 +83,8 @@ const data = {
       price: 299.99,
       description:
         "Capture stunning photos and videos with this easy-to-use digital camera.",
-      image: "digital_camera.jpg",
+      image:
+        "https://unsplash.com/photos/black-nikon-dslr-camera-on-brown-wooden-table-BB2G2cfdXKE",
     },
     {
       id: 9,
@@ -87,7 +94,8 @@ const data = {
       price: 79.99,
       description:
         "Portable Bluetooth speaker with rich sound quality for on-the-go entertainment.",
-      image: "bluetooth_speaker.jpg",
+      image:
+        "https://unsplash.com/photos/black-and-red-lg-portable-speaker-zxvnrxl5OXcch",
     },
     {
       id: 10,
@@ -97,7 +105,8 @@ const data = {
       price: 29.99,
       description:
         "Convenient wireless charging pad compatible with various devices.",
-      image: "wireless_charging_pad.jpg",
+      image:
+        "https://unsplash.com/photos/a-computer-mouse-sitting-on-top-of-a-keyboard-WYWVqJUFDs4",
     },
     {
       id: 11,
@@ -107,7 +116,8 @@ const data = {
       price: 899.99,
       description:
         "Sleek and lightweight laptop with a high-resolution display and long battery life.",
-      image: "ultra_thin_laptop.jpg",
+      image:
+        "https://unsplash.com/photos/cropped-image-of-an-office-woman-is-charging-a-smartphone-with-a-wireless-charger-while-typing-on-a-computer-laptop--BS96dcJDIs",
     },
     {
       id: 12,
@@ -117,7 +127,8 @@ const data = {
       price: 249.99,
       description:
         "Immerse yourself in virtual worlds with this advanced VR headset.",
-      image: "virtual_reality_headset.jpg",
+      image:
+        "https://unsplash.com/photos/white-and-black-beats-by-dr-dre-headphones-MvJezf8FT4o",
     },
   ],
 };
@@ -146,12 +157,12 @@ contianer.innerHTML = data.products
   .map(
     (el) =>
       `<div class='card'>
-        <img src=${el.image} alt=${el.name}>
+        <img src="${el.image}" alt="${el.name}">
         <h2>${el.name}</h2>
         <h3>${el.brand}</h3>
         <p>Price: ${el.price}</p>
         <button onclick={addToCart(${el.id})}>Add to cart</button>
-    </div>`
+     </div>`
   )
   .join();
 

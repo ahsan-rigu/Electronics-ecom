@@ -12,7 +12,7 @@ if (cart.length === 0) {
 } else {
   container.innerHTML = cart.map(
     (item) =>
-      `<div class"list-item"> <h4>${item.name}</h4> <p>Price: ${item.price} </p> <p>Quantity:  ${item.quantity}</div>`
+      `<div class="list-item"> <h4>${item.name}</h4> <p>Price: ${item.price} </p> <p>Quantity:  ${item.quantity}</div>`
   );
   container.innerHTML =
     container.innerHTML +
@@ -20,5 +20,5 @@ if (cart.length === 0) {
       (acc, curr) => acc + curr.price * curr.quantity,
       0
     )}` +
-    "<button>Checkout</button>";
+    "<a class='btn' href='/checkout'>Checkout</a>";
 }

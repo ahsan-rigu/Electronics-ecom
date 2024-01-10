@@ -114,3 +114,9 @@ header a.logo{
     margin: 0;
     padding: 0;
 }
+
+.center{
+    width: 100vw;
+    height: 90vh;
+    text-align: center;
+}
